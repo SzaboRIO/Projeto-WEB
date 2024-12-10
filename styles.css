@@ -1,0 +1,45 @@
+body {
+  font-family: roboto;
+  text-align: justify;
+}
+
+.socials-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+  }
+  
+  .socials-icon {
+    font-size: 20px;
+    color: white;
+  }
+
+  .img-fluid {
+    width: auto;
+  }
+
+p {
+  padding:none;
+  margin: 0px 0px !important;
+}
+
+  .carousel-item img {
+    height: 700px;
+    object-fit: cover; /* Evita distorções cortando partes da imagem */
+  }
+
+  .container-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tuga {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 300px;
+  padding-right: 300px;
+}

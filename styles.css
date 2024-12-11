@@ -28,7 +28,7 @@ p {
 
   .carousel-item img {
     height: 700px;
-    object-fit: cover; /* Evita distorções cortando partes da imagem */
+    object-fit: cover;
   }
 
   .container-banner {
@@ -40,6 +40,6 @@ p {
 .tuga {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 100px;
+  padding-right: 100px;
 }

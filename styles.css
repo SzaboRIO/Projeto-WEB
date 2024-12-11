@@ -9,6 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 15px;
+    margin-bottom: 0;
 
   }
   
@@ -35,11 +36,24 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 800px; /* Add a maximum width */
+  margin: 0 auto; /* Center the container */
 }
 
 .tuga {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding-top: 20px;
+}
+
+footer {
+  padding-bottom: 10px;
 }

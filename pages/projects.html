@@ -16,7 +16,7 @@
   <!-- Font Awesome icons -->
   <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
   <!-- CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
         <a class="socials-icon" href="#" target="_blank" aria-hidden="true"><i class="fa-solid fa-gamepad px-3"></i></a>
       </div>
       <!-- Nome com link para homepage -->
-      <a class="px-3 navbar-brand" href="./index.html">SzaboRIO</a>
+      <a class="px-3 navbar-brand" href="../index.html">SzaboRIO</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -43,11 +43,11 @@
           </li>
           <!-- Projects na NAVBAR -->
           <li class="nav-item justify-content-end">
-            <a class="nav-link p-2" href="./projects.html">Projects</a>
+            <a class="nav-link p-2" href="../pages/projects.html">Projects</a>
           </li>
           <!-- Contact na NAVBAR -->
           <li class="nav-item">
-            <a class="nav-link p-2" href="./contact.html">Contact</a>
+            <a class="nav-link p-2" href="../pages/contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -60,40 +60,59 @@
       <header class="text-white text-center py-5">
         <div class="container">
           <!-- Foto de Perfil -->
-          <img src="avatar.jpg" alt="avatar" class="rounded-circle mb-4" width="150" height="150">
+          <img src="../assets/pics/avatar.jpg" alt="avatar" class="rounded-circle mb-4" width="150" height="150">
         </div>
       </header>
+
     </section>
-    <!-- Contact form -->
-    <section class="container mt-5">
-      <h2>Contact me</h2>
-      <form id="contact-form" class="form-horizontal" action="sucess.html" method="get">
-        <div class="form-group">
-          <label for="nome" class="col-sm-2 control-label">Name:</label>
-          <div class="col-sm-10">
-            <input type="text" id="nome" name="nome" required class="form-control" placeholder="John Doe">
+    <!-- Projetos / Participações -->
+    <section id="projects / participations" class="py-5">
+      <div class="container">
+        <h1 class="text-center">Projects / Participations</h1>
+        <div class="row mt-4">
+          <!-- Projeto 1 -->
+          <div class="col-12 col-sm-6 col-md-4 mb-4" onclick="window.location.href='./tuga-downloads.html'"
+            style="cursor: pointer;">
+            <div class="card h-100">
+              <img src="../assets/pics/tuga-downloads.jpg" class="card-img-top" alt="Tuga Downloads"
+                style="max-width: 100%; height: 100px">
+              <div class="card-body">
+                <h6 class="card-title">Media Download</h6>
+                <p class="card-text"><b>www.tuga-downloads.com</b> was a popular download website that offered a wide
+                  range of digital content, including Movies, TV series, Games, Music and more. The site was one of the
+                  top 50 most visited download sites in Portugal in 2010.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Projeto 2 -->
+          <div class="col-12 col-sm-6 col-md-4 mb-4" onclick="window.location.href='./minuto90.html'"
+            style="cursor: pointer;">
+            <div class="card h-100">
+              <img src="../assets/pics/minuto90.jpg" class="card-img-top" alt="Copywriter" style="max-width: 100%; height: 100px">
+              <div class="card-body">
+                <h6 class="card-title">News / Live Games / Statistics / Interviews</h6>
+                <p class="card-text"><b>www.minuto90.pt</b> was a popular website that offered a range of features,
+                  including news, live game coverage, statistics, and interviews. The website focused on the district
+                  championships of the Porto Football Association and aimed to be the best website of its kind in
+                  Portugal.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Participação -->
+          <div class="col-12 col-sm-6 col-md-4 mb-4" onclick="window.location.href='./exercito.html'"
+            style="cursor: pointer;">
+            <div class="card h-100">
+              <img src="../assets/pics/exercito.jpg" class="card-img-top" alt="Digital advertising"
+                style="max-width: 100%; height: 100px">
+              <div class="card-body">
+                <h6 class="card-title">Portuguese Army Recruitment</h6>
+                <p class="card-text">Physical aptitude tests at the Classification and Selection Office of Vila Nova de
+                  Gaia for admission to the Portuguese Army.</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="form-group">
-          <label for="email" class="col-sm-2 control-label">E-mail:</label>
-          <div class="col-sm-10">
-            <input type="email" id="email" name="email" required class="form-control"
-              placeholder="john.doe@example.com">
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="mensagem" class="col-sm-2 control-label">Message:</label>
-          <div class="col-sm-10">
-            <textarea id="mensagem" name="mensagem" required class="form-control"
-              placeholder="Type your message here..."></textarea>
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-10 mt-4">
-            <button type="submit" class="btn btn-primary">Send</button>
-          </div>
-        </div>
-      </form>
+      </div>
     </section>
   </main>
 
@@ -113,7 +132,7 @@
     <!-- Footer description -->
     <p class="text-center">&copy; 2024 SzaboRIO Portfolio</p>
   </footer>
-  
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
